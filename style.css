@@ -1,0 +1,740 @@
+@font-face {
+    font-family: "Muller Bold";
+    font-display: swap;
+    src: url(/fonts/MullerBold.woff) format("woff"),
+        url(/fonts/MullerBold.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Muller Regular";
+    src: url(/fonts/MullerRegular.woff) format("woff"),
+        url(/fonts/MullerRegular.woff2) format("woff2");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Sofia Sans";
+    src: url(/fonts/SofiaSans.ttf) format("ttf");
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+}
+
+.first-screen {
+    background-image: url(img/background.jpg);
+    height: 800px;
+    background-size: cover;
+    position: relative;
+
+}
+
+.fox {
+    position: relative;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 15px;
+    justify-content: space-between;
+    height: 58px;
+    margin-left: 110px;
+    margin-right: 150px;
+}
+
+
+.logo {
+    display: flex;
+    width: 407px;
+    height: 85px;
+
+}
+
+.dantist {
+    font-weight: bold;
+    font-family: "Sofia Sans";
+    color: #46B1DE;
+    font-size: 35px;
+
+}
+
+.text {
+    font-family: "Roboto";
+    display: grid;
+    color: black;
+    font-size: 20px;
+    max-width: 301.5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.phone {
+    display: inline;
+    max-height: 58px;
+}
+
+.language {
+    padding-right: 75px;
+    display: flex;
+    position: relative;
+    bottom: 806px;
+    justify-content: end;
+    padding-left: 23px;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#phone1 {
+
+    font-size: 20px;
+}
+
+#text1 {
+    display: inline-grid;
+
+}
+
+.all {
+    flex-direction: column;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 110px;
+
+
+}
+
+h1 {
+    flex-direction: column;
+    display: flex;
+    line-height: 52px;
+    font-family: "Roboto";
+    letter-spacing: 8px;
+    padding-top: 150px;
+
+
+}
+
+b {
+    font-size: 50px;
+}
+
+.br {
+    letter-spacing: 2px;
+    color: #46B1DE;
+    font-size: 50px;
+}
+
+.br2 {
+    display: flex;
+    line-height: 22.4px;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#call {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    background-color: #46B1DE;
+    color: white;
+    font-size: 30px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    box-shadow: 0px 3px #46B1DE;
+}
+
+.button {
+    display: flex;
+    padding-top: 50px;
+
+}
+
+#servises {
+    display: inline-block;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    padding-top: 20px;
+    color: #46B1DE;
+    background-color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 3px #DDE0DC;
+}
+
+.none {
+    visibility: hidden;
+    width: 180px;
+}
+
+.big {
+    display: flex;
+    padding-right: 15px;
+    background-color: white;
+    padding-left: 20px;
+    position: relative;
+    z-index: 2;
+    height: 120px;
+    width: 280px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 3px #DDE0DC;
+}
+
+.number {
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex;
+    color: #46B1DE;
+    font-size: 70px;
+    padding-top: 30px;
+    line-height: 100%;
+
+}
+
+.text2 {
+    font-family: "Roboto";
+    display: flex;
+    font-size: 15px;
+    padding-left: 10px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.text3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 97px;
+    width: 1150px;
+    margin: 0 auto;
+    margin-top: 120px;
+    gap: 25px;
+
+
+}
+
+.text4 {
+    font-family: "Roboto";
+    display: flex;
+    overflow-y: auto;
+    font-size: 15px;
+    margin-top: 20px;
+    padding-left: 10px;
+    margin: auto;
+    font-weight: bold;
+}
+
+.lady {
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+    z-index: 1;
+}
+
+.box {
+    margin-top: 95px;
+    display: flex;
+    justify-content: center;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: "Roboto";
+    font-weight: bold;
+}
+
+.table {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+}
+
+.color {
+    color: #46B1DE;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+
+    height: 140px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+
+    height: 140px;
+    width: 270px;
+    border-radius: 12px;
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.thre {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+
+    height: 140px;
+    width: 270px;
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+.oll {
+    flex-wrap: wrap;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.grid {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.grid2 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.grid3 {
+
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.border {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 12px;
+    background-color: #A1C7D4;
+
+}
+
+.number2 {
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #46B1DE;
+    display: flex;
+    font-size: 40px;
+}
+
+.head {
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #46B1DE;
+    position: relative;
+    display: flex;
+    left: 60px;
+    width: 230px;
+    bottom: 43px;
+}
+
+.text0 {
+    justify-content: center;
+    padding-top: 10px;
+    font-family: "Roboto";
+    font-weight: bold;
+    display: flex;
+    position: relative;
+    bottom: 25px;
+    font-size: 16px;
+}
+
+.log {
+    justify-content: center;
+    display: flex;
+}
+
+.log1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-weight: bold;
+    border: solid 1px #D9D9D9;
+    margin: 9px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+}
+
+.log2 {
+    border-radius: 10px;
+    margin: 90px;
+    border: solid 1px #D9D9D9;
+}
+
+.form-1 {
+    display: flex;
+    justify-content: center;
+}
+
+.field {
+    background-color: #D9D9D9B5;
+    font-weight: bold;
+    display: flex;
+    height: 57px;
+
+    border-radius: 8px;
+    margin-left: 40px;
+
+}
+
+.user {
+    top: 5px;
+    position: relative;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+.form-1 input[type=text],
+.form-1 input[type=phone] {
+    background-color: #D9D9D9B5;
+    font-weight: bold;
+    border: none;
+    font-size: 19px;
+    width: 233px;
+    height: 35px;
+    display: flex;
+    margin-top: 10px;
+    border-left: solid 1px;
+    padding-left: 10px;
+}
+
+.submit {
+    margin-left: 40px;
+    display: flex;
+    margin-right: 40px;
+}
+
+#signup {
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    background-color: #46B1DE;
+    height: 57px;
+    width: 180px;
+}
+
+.login {
+    display: flex;
+    height: 57px;
+    width: 233px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+
+.photo1 {
+
+    border-radius: 8px;
+    width: 300px;
+    height: 150px;
+}
+
+footer {
+    background: linear-gradient(91.75deg, #A1C7D4 18.06%, #0680AA 98.16%);
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 8px;
+}
+
+.dantist1 {
+    position: relative;
+    left: 60px;
+    bottom: 55px;
+    font-size: 30px;
+}
+
+.col-1 {
+    font-family: "Muller Regular";
+    padding-bottom: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.time {
+    position: relative;
+    left: 170px;
+    bottom: 110px;
+}
+
+.col-3 {
+    font-family: "Muller Regular";
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 45%;
+}
+
+#text2 {
+    padding-bottom: 20px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+#tooh {
+    height: 60px;
+    width: 60px;
+}
+
+#width {
+    position: relative;
+    font-size: 17px;
+    color: white;
+    bottom: 23px;
+}
+
+#icons {
+    height: 25px;
+    width: 25px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+@media (max-width: 992px) {
+    .phone {
+        display: flex;
+        height: 18px;
+        width: 205px;
+    }
+
+    .logo {
+        display: flex;
+        width: 361px;
+        height: 40px;
+    }
+
+    .dantist {
+        font-size: 20px;
+    }
+
+    .language {
+        bottom: 823px;
+    }
+
+    .text {
+        padding-right: 20px;
+    }
+
+    .lady {
+        right: 0%;
+        height: 500px;
+    }
+
+    .b {
+        font-size: 45px;
+    }
+
+    br {
+        font-size: 45px;
+    }
+
+    .br2 {
+        font-size: 17px;
+    }
+
+    .none {
+        width: 95px;
+    }
+
+    .text3 {
+        width: 100%;
+        margin-top: 135px;
+    }
+
+    .big {
+        margin-left: 20px;
+        margin-right: 0;
+        height: 100px;
+        width: 235px;
+    }
+
+    .number {
+        font-size: 50px;
+        padding-top: 25px;
+    }
+
+    .text2 {
+        font-size: 15px;
+    }
+
+    #phone1 {
+        padding-left: 9px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .fox {
+        margin: 0;
+    }
+
+    .logo {
+        height: 55px;
+    }
+
+    #phone1 {
+        padding-left: 13px;
+    }
+
+    .all {
+        margin: 0;
+    }
+
+    h1 {
+        padding-top: 46px;
+        line-height: 30px;
+    }
+
+    b {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .br {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .br2 {
+        text-align: center;
+        font-size: 20px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+
+    .lady {
+        right: 10%;
+        height: 400px;
+        bottom: 8px;
+    }
+
+    .text {
+        display: none;
+    }
+
+    #call {
+        height: 42px;
+        width: 165px;
+        padding-top: 12px;
+    }
+
+    #servises {
+        height: 42px;
+        width: 165px;
+        padding-top: 12px;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .button {
+        justify-content: center;
+    }
+
+    .text3 {
+        display: none;
+    }
+
+    .box {
+        margin: 0;
+    }
+
+    .form-1 {
+        flex-direction: column;
+    }
+
+    .field {
+        margin-right: 40px;
+    }
+
+    .submit {
+        margin-left: 95px;
+    }
+
+    .text0 {
+        margin: 5px;
+    }
+
+    .log2 {
+        margin: 10px;
+    }
+
+    .photo {
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .photo1 {
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        height: 650px;
+    }
+
+    .col-1 {
+        width: 100%;
+    }
+
+    .dantist1 {
+        left: 100px;
+
+    }
+
+    #tooh {
+        margin-left: 25px;
+    }
+
+    .col-3 {
+        padding: 0;
+        position: relative;
+        bottom: 110px;
+    }
+}
