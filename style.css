@@ -19,6 +19,18 @@
     font-style: normal;
 }
 
+.button2 {
+    display: none;
+}
+
+.phone2 {
+    display: none;
+}
+
+.logo2 {
+    display: none;
+}
+
 body {
     margin: 0;
 }
@@ -534,6 +546,14 @@ h3 {
 }
 
 @media (max-width: 992px) {
+    .phone2 {
+        display: none;
+    }
+
+    .logo2 {
+        display: none;
+    }
+
     .phone {
         display: flex;
         height: 18px;
@@ -611,12 +631,34 @@ h3 {
         margin: 0;
     }
 
-    .logo {
-        height: 55px;
+    .button {
+        display: none;
     }
 
-    #phone1 {
+    .phone {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .logo2 {
+        height: 55px;
+        display: flex;
+        width: 361px;
+    }
+
+    .phone2 {
+        display: flex;
+        height: 18px;
+        width: 275px;
+    }
+
+    #phone2 {
+        font-weight: bold;
         padding-left: 13px;
+        font-size: 20px;
     }
 
     .all {
@@ -667,11 +709,50 @@ h3 {
         padding-top: 12px;
     }
 
+    #call2 {
+        display: inline-block;
+        height: 42px;
+        width: 190px;
+        text-align: center;
+        padding-top: 12px;
+        background-color: #46B1DE;
+        color: white;
+        font-size: 30px;
+        text-transform: uppercase;
+        border-radius: 8px;
+        box-shadow: 0px 3px #46B1DE;
+    }
+
+    .button2 {
+        display: flex;
+        padding-top: 50px;
+
+    }
+
+    #servises2 {
+        display: inline-block;
+        height: 42px;
+        width: 165px;
+        text-align: center;
+        padding-top: 12px;
+        color: #46B1DE;
+        background-color: white;
+        text-transform: uppercase;
+        font-size: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 3px #DDE0DC;
+    }
+
+    .none2 {
+        visibility: hidden;
+        width: 95px;
+    }
+
     .language {
         display: none;
     }
 
-    .button {
+    .button2 {
         justify-content: center;
     }
 
